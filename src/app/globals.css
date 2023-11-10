@@ -15,5 +15,12 @@
 
 button{
     cursor: pointer;
-    
+
+}
+
+ 
+div{
+    background-color: rgb(11, 14, 14);
+    border-radius: 5px;
+    padding: 10px;
 }
