@@ -1,12 +1,28 @@
- *{
+* {
   text-align: center;
- }
- 
- h1{
+}
+
+h1 {
   color: aqua;
   text-align: center;
- }
+}
 
- h2{
+h2 {
   color: blueviolet;
- }
+}
+
+button {
+  color: chartreuse;
+  background-color: #ff0000;
+  height: 30px;
+  width: auto;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 5px;
+  margin: 5px;
+}
+
+button:hover {
+  color: aqua;
+  background-color: blue;
+}
