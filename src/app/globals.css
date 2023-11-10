@@ -1,28 +1,19 @@
-* {
-  text-align: center;
-}
+ *{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+ }
 
-h1 {
-  color: aqua;
-  text-align: center;
-}
 
-h2 {
-  color: blueviolet;
-}
+ h1{
+    color: aqua;
+ }
 
-button {
-  color: chartreuse;
-  background-color: #ff0000;
-  height: 30px;
-  width: auto;
-  cursor: pointer;
-  border-radius: 6px;
-  padding: 5px;
-  margin: 5px;
-}
+ h2{
+    color: blueviolet;
+ }
 
-button:hover {
-  color: aqua;
-  background-color: blue;
+button{
+    cursor: pointer;
+    
 }
