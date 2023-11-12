@@ -1,54 +1,53 @@
- *{
-    text-align: center;
-    margin: 5px;
-    padding: 5px;
- }
-
-
- h1{
-    color: aqua;
-    background-color: rgb(72, 0, 255);
-    border-radius: 5px;
- }
-
- h2{
-    color: blueviolet;
- }
-
-button{
-    cursor: pointer;
-
+* {
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
 }
 
- 
-div{
-    background-color: rgb(11, 14, 14);
-    border-radius: 5px;
-    padding: 20px;
+h1 {
+  color: aqua;
+  background-color: rgb(72, 0, 255);
+  border-radius: 5px;
 }
 
-.user-input{
-   color: rgb(50, 237, 47);
-   background-color: rgb(50, 98, 98);
-   border: 2px solid greenyellow;
-   border-radius: 5px;
-   height: 40px;
-   width:1200px ;
-   padding: 10px;
-   margin: 10px;
-   text-align: left;
+h2 {
+  color: rgb(132, 0, 255);
+  background-color: rgb(21, 255, 0);
+  border-radius: 5px;
 }
 
-.user-input:hover{
-   background-color: blue;
+button {
+  cursor: pointer;
 }
 
-.users-div{
-   height: 450px;
-   width: autouser-;
-   background-color: rgb(170, 0, 255);
+div {
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 20px;
 }
- 
-hr{
-   color: rgb(195, 255, 0);
+
+.user-input {
+  color: rgb(50, 237, 47);
+  background-color: rgb(50, 98, 98);
+  border: 2px solid greenyellow;
+  border-radius: 5px;
+height: auto;
+width: auto;
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
+}
+
+.user-input:hover {
+  background-color: blue;
+}
+
+.users-div {
+  height: auto;
+  width: auto;
+  background-color: rgb(212, 0, 255);
+}
+
+hr {
+  color: rgb(195, 255, 0);
 }

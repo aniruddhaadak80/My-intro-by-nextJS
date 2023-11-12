@@ -23,7 +23,7 @@ export default function RootLayout({
         {/* Links of all pages */}
         <Page_links />
         {/* provider from redux provider  */}
-        <Providers> {children}</Providers>
+        <Providers> {children} </Providers>
       </body>
     </html>
   );

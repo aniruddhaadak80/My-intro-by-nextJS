@@ -1,7 +1,7 @@
 const {configureStore} = require('@reduxjs/toolkit');
+import reducer from './slice'
+
 export const store = configureStore({
-    // reducer1:productRedducer,
-    // reducer2:searchReducer
-reducer:{}
+reducer
 
 })
