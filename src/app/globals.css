@@ -7,6 +7,8 @@
 
  h1{
     color: aqua;
+    background-color: rgb(72, 0, 255);
+    border-radius: 5px;
  }
 
  h2{
@@ -22,5 +24,31 @@ button{
 div{
     background-color: rgb(11, 14, 14);
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
+}
+
+.user-input{
+   color: rgb(50, 237, 47);
+   background-color: rgb(50, 98, 98);
+   border: 2px solid greenyellow;
+   border-radius: 5px;
+   height: 40px;
+   width:1200px ;
+   padding: 10px;
+   margin: 10px;
+   text-align: left;
+}
+
+.user-input:hover{
+   background-color: blue;
+}
+
+.users-div{
+   height: 450px;
+   width: autouser-;
+   background-color: rgb(170, 0, 255);
+}
+ 
+hr{
+   color: rgb(195, 255, 0);
 }
