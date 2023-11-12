@@ -10,23 +10,20 @@ export default function Page_links() {
           <button className="btn btn-outline-primary ">Home page </button>
         </Link>
 
-        {/* Links for link page  */}
-        <Link href="/links">
-          <button className="btn btn-outline-success ">Links page</button>
-        </Link>
-
-
         {/* links for profile page  */}
         <Link href="/login">
           <button className="btn btn-outline-info  ">Log in</button>
         </Link>
-        
 
         {/* Links for Error page  */}
         <Link href="/error">
           <button className="btn btn-outline-danger ">Error page</button>
         </Link>
 
+        {/* style using module.css */}
+        <Link href="/just">
+          <button className="btn btn-outline-dark">Just</button>
+        </Link>
       </div>
     </>
   );
