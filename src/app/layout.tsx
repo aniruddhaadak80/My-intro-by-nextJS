@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Page_links from "./links/page";
+import Providers from "@/app/redux/providers";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,12 +20,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-  
         {/* Links of all pages */}
         <Page_links />
-        
-        {children}
- 
+        {/* provider from redux provider  */}
+        <Providers> {children}</Providers>
       </body>
     </html>
   );
