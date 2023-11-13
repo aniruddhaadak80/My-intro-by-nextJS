@@ -1,0 +1,10 @@
+div{
+    color: red;
+    background-color: antiquewhite;
+}
+
+button:hover{
+    color: aliceblue;
+    background-color: aquamarine;
+ 
+}

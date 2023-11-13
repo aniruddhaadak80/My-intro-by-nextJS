@@ -1,9 +1,11 @@
 "use client";
 
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { removeUser } from "../redux/slice";
 
 export default function DisplayUsers() {
   const userData = useSelector((data) => data.users);
+  const dispatch = useDispatch();
 
   console.log(userData);
   return (
@@ -13,7 +15,14 @@ export default function DisplayUsers() {
         <hr />
 
         {userData.map((item) => (
-          <h2>{item.name}</h2>
+          <>
+            <h2>
+              <span>{item.name}</span>
+              <span>
+                <button onClick={()=>dispatch(removeUser(item.id))} className="btn btn-danger">Remove</button>
+              </span>
+            </h2>
+          </>
         ))}
       </div>
     </>

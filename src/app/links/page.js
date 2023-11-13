@@ -24,6 +24,11 @@ export default function Page_links() {
         <Link href="/just">
           <button className="btn btn-outline-dark">Just</button>
         </Link>
+
+          {/* style using module.css */}
+          <Link href="/animations">
+          <button className="btn btn-outline-warning">Animations</button>
+        </Link>
       </div>
     </>
   );

@@ -1,26 +1,30 @@
+const { createSlice, nanoid } = require("@reduxjs/toolkit");
 
-
-const { createSlice ,nanoid } = require("@reduxjs/toolkit");
-
-const initialState={
-    users:[]
-}
+const initialState = {
+  users: [],
+};
 
 const Slice = createSlice({
-    name:"addUserSlice",
-    initialState,
-    reducers:{
-        addUsers:(state,action) =>{
+  name: "addUserSlice",
+  initialState,
+  reducers: {
+    addUsers: (state, action) => {
       console.log(action);
-            const data ={
-                id:nanoid(),
-                name:action.payload
-            }
-            state.users.push(data);
-        }
-    }
+      const data = {
+        id: nanoid(),
+        name: action.payload,
+      };
+      state.users.push(data);
+    },
+    removeUser: (state, action) => {
+      const data = state.users.filter((item) => {
+        return item.id !== action.payload;
+      });
+      state.users = data;
+    },
+  },
 });
 
-export const {addUsers} =Slice.actions;
+export const { addUsers, removeUser } = Slice.actions;
 
 export default Slice.reducer;
