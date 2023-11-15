@@ -10,14 +10,19 @@ export default function Page_links() {
           <button className="btn btn-outline-primary ">Home page </button>
         </Link>
 
-        {/* links for profile page  */}
+        {/*Link for contact page */}
+        <Link href={"/contact"}>
+          <button className="btn btn-secondary-outline">Contact Me</button>
+        </Link>
+
+        {/* links for login page  */}
         <Link href="/login">
           <button className="btn btn-outline-info  ">Log in</button>
         </Link>
 
-        {/* Links for Error page  */}
-        <Link href="/error">
-          <button className="btn btn-outline-danger ">Error page</button>
+        {/* style using module.css */}
+        <Link href="/animations">
+          <button className="btn btn-outline-warning">Animations</button>
         </Link>
 
         {/* style using module.css */}
@@ -25,9 +30,12 @@ export default function Page_links() {
           <button className="btn btn-outline-dark">Just</button>
         </Link>
 
-          {/* style using module.css */}
-          <Link href="/animations">
-          <button className="btn btn-outline-warning">Animations</button>
+        {/* Add something (links) here  */}
+        
+
+        {/* Links for Error page  */}
+        <Link href="/error">
+          <button className="btn btn-outline-danger ">Error page</button>
         </Link>
       </div>
     </>

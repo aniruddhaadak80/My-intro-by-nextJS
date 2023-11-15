@@ -6,7 +6,7 @@ export default function Profile(){
  <div>
 <h2>Enter your email: </h2>
  <input class="form-control form-control-lg  " type="text" placeholder="Enter your email..." aria-label=".form-control-lg example"/>
-
+<br/>
 <h2>Enter password :</h2>
  <input class="form-control " type="text" placeholder="Enter your password..." aria-label="default input example"/>
 
