@@ -30,9 +30,13 @@ export default function Page_links() {
           <button className="btn btn-outline-dark">Just</button>
         </Link>
 
-        {/* Add something (links) here  */}
-    
-    
+        {/* link for images  */}
+        <Link href={"/pictures"}>
+          <button className="btn btn-primary">Pictures</button>
+        </Link>
+
+ {/* Add something (links) here  */}
+
 
         {/* Links for Error page  */}
         <Link href="/error">
