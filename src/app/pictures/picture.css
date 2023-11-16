@@ -1,0 +1,12 @@
+.image-pic{
+    border: 3px solid red;
+    border-radius: 5px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.image-pic:hover{
+   border: 3px solid green;
+   background-color: rgb(18, 42, 197);
+   
+}

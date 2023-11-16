@@ -1,4 +1,5 @@
 import Image from "next/image";
+import "./picture.css";
 
 export default function Pictures() {
   return (
@@ -6,6 +7,7 @@ export default function Pictures() {
       <h1>You will see some images here </h1>
       {/* Image of beautiful queen */}
       <Image
+        className="image-pic"
         height={350}
         width={250}
         src="https://image.lexica.art/md2_webp/182e551e-6443-46d6-abee-2336b2499c3c"
@@ -13,6 +15,7 @@ export default function Pictures() {
       />
       {/* image of a cute cat  */}
       <Image
+        className="image-pic"
         height={350}
         width={250}
         src={
@@ -20,8 +23,6 @@ export default function Pictures() {
         }
         alt="cat-image"
       />
-
-
     </>
   );
 }
