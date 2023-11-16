@@ -31,7 +31,8 @@ export default function Page_links() {
         </Link>
 
         {/* Add something (links) here  */}
-        
+    
+    
 
         {/* Links for Error page  */}
         <Link href="/error">
