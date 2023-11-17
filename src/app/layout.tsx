@@ -5,7 +5,6 @@ import "./globals.css";
 import Page_links from "./links/page";
 import Providers from "@/app/redux/providers";
 import Footer from "./footer/page";
-import Select from "./options/page";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,14 +21,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        {/* Links for  all pages . you can see it from links directory */}
-        <Page_links />
-        {/* For select options .In  options directory  */}
-        <Select />
-        {/* provider from redux provider  */}
-        <Providers> {children} </Providers>
-        {/* footer section ,that will appear in all pages  */}
-        <Footer />
+        <center>
+          {/* Links for  all pages . you can see it from links directory */}
+          <Page_links />
+
+          {/* provider from redux provider  */}
+          <Providers> {children} </Providers>
+          {/* footer section ,that will appear in all pages  */}
+          <Footer />
+        </center>
       </body>
     </html>
   );

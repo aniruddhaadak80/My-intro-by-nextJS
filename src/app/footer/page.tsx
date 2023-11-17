@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Page_links from "../links/page";
 
 export default function Footer() {
   return (
@@ -7,14 +8,11 @@ export default function Footer() {
       <br />
       <br />
       <br />
-      <h1>I am footer </h1>
-      <Link className="btn btn-outline-info" href={"/"}>
-        Home
-      </Link>
-      {/* you can use both {""} or " "  sign for hyperlink reference*/}
+      <h1>I am footer 👇 </h1>
+      {/* Links for pages or simply navb-ar  */}
+      <Page_links />
       <br />
-      <br/>
-      <br />
+      <h2>Follow Me :👇</h2>
     </>
   );
 }

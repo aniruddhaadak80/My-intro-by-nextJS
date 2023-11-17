@@ -23,4 +23,5 @@ p:hover {
   color: rgba(30, 0, 255, 0.731);
   background-color: rgb(30, 255, 0);
   border-radius: 10px;
+  overflow: auto;
 }

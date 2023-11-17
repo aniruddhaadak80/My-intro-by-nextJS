@@ -7,7 +7,7 @@ const nextConfig = {
         hostname: "image.lexica.art",
       },
     ],
-  },
+  }
 };
 
 module.exports = nextConfig;

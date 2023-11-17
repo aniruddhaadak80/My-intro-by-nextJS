@@ -26,7 +26,13 @@ export default function Pictures() {
       />
 
       {/* image for public image (vercel) */}
-      <Image className="image-pic" src={Profile} alt="vercel logo" />
+      <Image
+        src={Profile}
+        className="image-pic"
+        height={350}
+        width={250}
+        alt="vercel logo"
+      />
     </>
   );
 }
