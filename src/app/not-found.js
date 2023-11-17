@@ -6,3 +6,10 @@ export default function Error() {
     </>
   );
 }
+
+// Title for Error page 
+export function generateMetadata(){
+  return{
+    title:"Error page"
+  }
+}

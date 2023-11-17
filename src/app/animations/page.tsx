@@ -11,3 +11,10 @@ export default function Animations() {
     </>
   );
 }
+
+// Title for Animations page 
+export function generateMetadata(){
+  return{
+    title:"Animation page "
+  }
+}

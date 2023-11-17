@@ -34,3 +34,10 @@ export default function Style() {
     </>
   );
 }
+
+//******  Title for just page.It is not usable for "use client " ********
+//  export function generateMetadata(){
+//   return{
+// title:"Just page "
+//   }
+// }

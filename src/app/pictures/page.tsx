@@ -1,9 +1,10 @@
 import Image from "next/image";
 import "./picture.css";
-
+import Profile from "../../../public/vercel.svg";
 export default function Pictures() {
   return (
     <>
+      {/* you have to configure the hostname and protocol in next.config.js file  */}
       <h1>You will see some images here </h1>
       {/* Image of beautiful queen */}
       <Image
@@ -23,6 +24,16 @@ export default function Pictures() {
         }
         alt="cat-image"
       />
+
+      {/* image for public image (vercel) */}
+      <Image className="image-pic" src={Profile} alt="vercel logo" />
     </>
   );
+}
+
+// Title for pictures page
+export function generateMetadata() {
+  return {
+    title: "Pictures ",
+  };
 }

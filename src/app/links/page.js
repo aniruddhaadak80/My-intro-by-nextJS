@@ -38,6 +38,7 @@ export default function Page_links() {
  {/* Add something (links) here  */}
 
 
+
         {/* Links for Error page  */}
         <Link href="/error">
           <button className="btn btn-outline-danger ">Error page</button>
